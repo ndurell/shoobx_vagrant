@@ -17,8 +17,9 @@ You will probably want to adjust your ssh key locations as well.
 More than likely the key is just ~/.ssh/id_rsa.
 These files will be copied to the new guest system.
 
-Run the command: vagrant up
+Run the command: vagrant up.
 It will probably take a while.
+
 Once it is up run the command: vagrant ssh
 
 Once you are in I've also added a script to add your ssh to the ssh agent.
@@ -27,12 +28,16 @@ To run it do: sh add_ssh_keys.sh
 You should be prompted to enter your key passphrase.
 
 Now cd into your repo. It will be under /opt/shobox/shoobx.app.
+
 You may need to run make clean first.
+
 Then run make ubuntu-environment.
+
 Then run make.
+
 Then run bin/console initialize.
 
-After that you should be able to run: make run
+After that you should be able to run using: make run
 
 Everything should be accesible on [http://localhost:8080](http://localhost:8080) in the browser on the host machine.
 
