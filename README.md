@@ -7,7 +7,13 @@ If you want to contribute I can add you to the repo as well.
 To use this download vagrant [here](https://www.vagrantup.com/).
 Then download virtual box [here](https://www.virtualbox.org/).
 
-Once both are installed cd into this repo.
+Once both are installed clone this repo:
+
+git clone https://github.com/ndurell/shoobx_vagrant
+
+Then type:
+
+cd shoobx_vagrant
 
 There are a number of file locaitons defined at the top of the Vagrantfile.
 These will probably need to be updated for your setup.
