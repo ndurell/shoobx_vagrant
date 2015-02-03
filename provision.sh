@@ -15,8 +15,8 @@ sudo apt-key add rabbitmq-signing-key-public.asc
 
 echo "installing extra dependencies."
 echo "we need python-lxml to install lxml"
-# apt-get update
-# apt-get -y install  git keychain
+apt-get update
+apt-get -y install  git keychain
 
 # unclear if needed 
 # echo "installing lxml dependencies"
