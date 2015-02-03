@@ -35,6 +35,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", 
     guest: 8080, host: 8080
 
+  config.vm.network "fowarded_port",
+    guest: 5432, host: 5433
+
   config.vm.synced_folder LOCAL_SRC_DIR, "/opt/shoobx/shoobx.app",
     type: "nfs"
 
